@@ -1,10 +1,10 @@
 package implementation;
-public class Group4 implements Group,Group1
+public class Group3 implements Group,Group1
 {
  int sum,mul;
 	public static void main(String[] args) 
 	{
-		Group4 obj=new Group4();
+		Group3 obj=new Group3();
 		obj.add();
 		obj.mul();
 	}
