@@ -1,6 +1,7 @@
 package implementation;
 public class Group2 implements Group1 
 {
+	int sum,prod;
 	public static void main(String[] args) 
 	{
 		Group2 obj=new Group2();
@@ -10,10 +11,12 @@ public class Group2 implements Group1
 
 	public void add() 
 	{
-		System.out.println("A:"+a+",B:"+b+",Sum"+(a+b));		
+		sum=a+b;
+		System.out.println("A:"+a+",B:"+b+",Sum:"+sum);		
 	}
 	public void mul() 
 	{
-		System.out.println("A:"+a+",B:"+b+",Product"+(a*b));
+		prod=a*b;
+		System.out.println("A:"+a+",B:"+b+",Product:"+prod);
 	}
 }
